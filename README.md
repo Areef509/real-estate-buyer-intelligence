@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Real-Estate Buyer Intelligence
 
 Machine-learning buyer segmentation and investment profiling for a real-estate portfolio:
@@ -79,3 +80,7 @@ tests/                 data quality, selection, recommendations, scoring validat
 - Cross-sectional data; every buyer has >= 3 purchases, so prospects without purchase history cannot be scored.
 - Satisfaction differences between segments are exploratory (not significant after correction).
 - Dependencies: only the versions in `requirements-lock.txt` were run; model pickles should be regenerated (`python run_pipeline.py`) in your own environment.
+=======
+# real-estate-buyer-intelligence
+Machine Learning-Based Buyer Segmentation and Investment Profiling for Real Estate Market Intelligence
+>>>>>>> fcc4e4802a6e76d18825e2b6945a6f8d104aa337
