@@ -1,0 +1,141 @@
+{
+  "audit": [
+    {
+      "file": "clients",
+      "rows": 2000,
+      "columns": 12,
+      "missing_cells": 0,
+      "duplicate_rows": 0
+    },
+    {
+      "file": "properties",
+      "rows": 10000,
+      "columns": 10,
+      "missing_cells": 2695,
+      "duplicate_rows": 0
+    },
+    {
+      "file": "buyers",
+      "rows": 2000,
+      "columns": 29,
+      "missing_cells": 0,
+      "duplicate_rows": 0
+    }
+  ],
+  "integrity": {
+    "unique_clients": 2000,
+    "properties_total": 10000,
+    "properties_sold": 7305,
+    "properties_available_no_client": 2695,
+    "missing_client_ref_is_exactly_available_listings": true,
+    "orphan_client_refs": 0,
+    "clients_without_purchase": 0,
+    "min_purchases_per_client": 3,
+    "purchase_date_range": [
+      "2024-01-01",
+      "2025-12-01"
+    ]
+  },
+  "selected": {
+    "feature_set": "behaviour",
+    "algorithm": "kmeans",
+    "k": 5.0,
+    "silhouette": 0.17252986558712302,
+    "calinski_harabasz": 389.4977063591571,
+    "davies_bouldin": 1.4343949440855193,
+    "min_cluster_share": 0.057,
+    "null_silhouette": 0.15782120889746404,
+    "silhouette_gap": 0.014708656689658983,
+    "seed_ari": 0.7231461280964869,
+    "bootstrap_ari": 0.8176536783158668,
+    "bootstrap_ari_sd": 0.1350084813392232,
+    "selection_score": 0.7906597907850161
+  },
+  "final_metrics": {
+    "silhouette": 0.17252986558712302,
+    "calinski_harabasz": 389.4977063591571,
+    "davies_bouldin": 1.4343949440855193
+  },
+  "pca_comparison": {
+    "n_components": 5,
+    "variance_kept": 1.0,
+    "sil_original": 0.17252986558712302,
+    "sil_pca": 0.172529865587123,
+    "db_original": 1.4343949440855193,
+    "db_pca": 1.4343949440855188,
+    "ari_original_vs_pca": 1.0
+  },
+  "gender_test": {
+    "ari_with_vs_without_gender": 0.9800700854764028,
+    "silhouette_without": 0.17252986558712302,
+    "silhouette_with": 0.15937434351989696
+  },
+  "fingerprint": "f14ca154c991bc8b",
+  "correlated_pairs": [
+    {
+      "feature_a": "office_share",
+      "feature_b": "apartment_share",
+      "abs_corr": 1.0
+    },
+    {
+      "feature_a": "total_spend_usd",
+      "feature_b": "total_area_sqft",
+      "abs_corr": 0.979
+    },
+    {
+      "feature_a": "average_purchase_price_usd",
+      "feature_b": "average_area_sqft",
+      "abs_corr": 0.959
+    },
+    {
+      "feature_a": "purchase_count",
+      "feature_b": "distinct_towers_purchased",
+      "abs_corr": 0.931
+    },
+    {
+      "feature_a": "average_purchase_price_usd",
+      "feature_b": "median_purchase_price_usd",
+      "abs_corr": 0.911
+    },
+    {
+      "feature_a": "median_purchase_price_usd",
+      "feature_b": "average_area_sqft",
+      "abs_corr": 0.888
+    }
+  ],
+  "names": {
+    "0": "Long-Horizon Buyers",
+    "1": "Lower-Rate Value-Ticket Buyers",
+    "2": "Commercial-Leaning Premium-Rate Buyers",
+    "3": "Fast-Cycle Residential-Focused Buyers",
+    "4": "High-Volume Long-Horizon Buyers"
+  },
+  "selection_sensitivity": {
+    "n_scenarios": 24,
+    "baseline_winner": "kmeans K=5 [behaviour]",
+    "share_of_scenarios_baseline_wins": 0.4166666666666667,
+    "winner_counts": {
+      "kmeans K=4 [behaviour]": 11,
+      "kmeans K=5 [behaviour]": 10,
+      "kmeans K=3 [behaviour]": 2,
+      "kmeans K=3 [behaviour+customer+geo/channel]": 1
+    },
+    "unrestricted_winner_all_algorithms": "gmm K=3 [behaviour]"
+  },
+  "k4_vs_k5": {
+    "partition_ari": 0.5410388293563663,
+    "share_in_dominant_child": {
+      "0": 0.634,
+      "1": 0.81,
+      "2": 0.904,
+      "3": 0.614
+    },
+    "k5_segment_sizes": [
+      534,
+      489,
+      452,
+      411,
+      114
+    ]
+  }
+}

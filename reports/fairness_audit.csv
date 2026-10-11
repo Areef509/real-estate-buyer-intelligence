@@ -1,0 +1,6 @@
+attribute,cramers_v,chi2_p_value,association
+gender,0.0403,0.5171,negligible
+geo_group,0.0924,0.0019,negligible
+country_group,0.0534,0.1185,negligible
+age_band,0.0759,0.0006,negligible
+client_type,0.0308,0.754,negligible

@@ -1,0 +1,7 @@
+feature_a,feature_b,abs_corr
+office_share,apartment_share,1.0
+total_spend_usd,total_area_sqft,0.979
+average_purchase_price_usd,average_area_sqft,0.959
+purchase_count,distinct_towers_purchased,0.931
+average_purchase_price_usd,median_purchase_price_usd,0.911
+median_purchase_price_usd,average_area_sqft,0.888

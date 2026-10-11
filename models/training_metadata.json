@@ -1,0 +1,24 @@
+{
+  "model_version": "kmeans-k5-f14ca154c991bc8b",
+  "label_fingerprint": "f14ca154c991bc8b",
+  "trained_rows": 2000,
+  "random_state": 42,
+  "dataset_sha256": {
+    "clients": "4a985a58e92a4f86",
+    "properties": "b2c6b3afb0459351",
+    "buyers": "96ffef384b665158"
+  },
+  "library_versions": {
+    "python": "3.12.7",
+    "numpy": "1.26.4",
+    "pandas": "2.2.2",
+    "scikit_learn": "1.5.1",
+    "joblib": "1.4.2"
+  },
+  "selection": {
+    "label": "kmeans K=5 [behaviour]",
+    "score": 0.7906597907850161,
+    "rule": "src/selection.py baseline weights"
+  },
+  "inference_ms_for_all_training_rows": 0.581
+}

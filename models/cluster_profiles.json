@@ -1,0 +1,891 @@
+{
+  "overall": {
+    "age": 55.099,
+    "satisfaction_score": 3.029,
+    "purchase_count": 3.6525,
+    "total_spend_usd": 1260375.4804200002,
+    "average_purchase_price_usd": 347089.95586912986,
+    "average_area_sqft": 1147.479667994311,
+    "average_price_per_sqft_usd": 302.5093741927522,
+    "office_share": 0.14872142857142856,
+    "purchase_span_months": 14.1455,
+    "purchase_intensity": 0.3174205081357112,
+    "distinct_towers_purchased": 3.607,
+    "is_investment_purpose": 0.3075,
+    "is_loan_applied": 0.368,
+    "is_company": 0.0515,
+    "is_international": 0.231,
+    "sd": {
+      "age": 17.343719361793482,
+      "satisfaction_score": 1.4135621949668684,
+      "purchase_count": 0.8397001239425234,
+      "total_spend_usd": 347830.6648274665,
+      "average_purchase_price_usd": 69721.82181398897,
+      "average_area_sqft": 219.92258695996946,
+      "average_price_per_sqft_usd": 15.969586937114457,
+      "office_share": 0.18477481159418038,
+      "purchase_span_months": 5.305129777015409,
+      "purchase_intensity": 0.22290112237033718,
+      "distinct_towers_purchased": 0.7012823243525034,
+      "is_investment_purpose": 0.4615736941568081,
+      "is_loan_applied": 0.4823819505050842,
+      "is_company": 0.22107054551216218,
+      "is_international": 0.42157782666070637
+    },
+    "n": 2000,
+    "gender_female_share": 0.494,
+    "office_buyer_share": 0.4475,
+    "mixed_category_share": 0.4465,
+    "top_country_share": 0.769
+  },
+  "segments": {
+    "0": {
+      "segment_id": 0,
+      "name": "Long-Horizon Buyers",
+      "n": 534,
+      "share": 0.267,
+      "means": {
+        "age": 54.449438202247194,
+        "satisfaction_score": 3.00561797752809,
+        "purchase_count": 3.700374531835206,
+        "total_spend_usd": 1340025.7537827715,
+        "average_purchase_price_usd": 362423.8377278402,
+        "average_area_sqft": 1177.6570240324595,
+        "average_price_per_sqft_usd": 308.15218878403215,
+        "office_share": 0.0847378277153558,
+        "purchase_span_months": 19.082397003745317,
+        "purchase_intensity": 0.1986191974026716,
+        "distinct_towers_purchased": 3.6928838951310863,
+        "is_investment_purpose": 0.30711610486891383,
+        "is_loan_applied": 0.36142322097378277,
+        "is_company": 0.04868913857677903,
+        "is_international": 0.21722846441947566
+      },
+      "medians": {
+        "age": 54.0,
+        "satisfaction_score": 3.0,
+        "purchase_count": 4.0,
+        "total_spend_usd": 1341702.15,
+        "average_purchase_price_usd": 356917.3616666667,
+        "average_area_sqft": 1156.13,
+        "average_price_per_sqft_usd": 306.93796235924157,
+        "office_share": 0.0,
+        "purchase_span_months": 19.0,
+        "purchase_intensity": 0.2,
+        "distinct_towers_purchased": 4.0
+      },
+      "age_quartiles": [
+        39.0,
+        54.0,
+        70.0
+      ],
+      "age_band_share": {
+        "<35": 0.1891,
+        "35-49": 0.2191,
+        "50-64": 0.2753,
+        "65+": 0.3165
+      },
+      "satisfaction_distribution": {
+        "1": 0.2004,
+        "2": 0.1985,
+        "3": 0.2022,
+        "4": 0.1929,
+        "5": 0.206
+      },
+      "client_type_share": {
+        "Individual": 0.9513,
+        "Company": 0.0487
+      },
+      "purpose_share": {
+        "Home": 0.6929,
+        "Investment": 0.3071
+      },
+      "referral_share": {
+        "Website": 0.5524,
+        "Agency": 0.3464,
+        "Client": 0.1011
+      },
+      "top_countries": {
+        "USA": 0.7828,
+        "UK": 0.0506,
+        "Canada": 0.0337
+      },
+      "top_regions": {
+        "California": 0.3146,
+        "Nevada": 0.0787,
+        "Colorado": 0.0655
+      },
+      "total_spend_sum": 715573752.52,
+      "office_buyer_share": 0.32209737827715357,
+      "mixed_category_share": 0.32209737827715357,
+      "same_tower_repeat_share": 0.00749063670411985,
+      "distinguishing_traits": [
+        {
+          "variable": "purchase_span_months",
+          "label": "Purchase span (months)",
+          "effect": 1.534,
+          "segment_value": 19.0824,
+          "rest_value": 12.3472,
+          "p_adj": 2.646852130328489e-147
+        },
+        {
+          "variable": "purchase_intensity",
+          "label": "Purchases per active month",
+          "effect": -0.768,
+          "segment_value": 0.1986,
+          "rest_value": 0.3607,
+          "p_adj": 9.74184073542092e-121
+        }
+      ],
+      "playbook": {
+        "profile_levels": {
+          "Investment orientation": "Typical",
+          "Property activity": "Typical",
+          "Purchase ticket size": "Typical",
+          "Commercial (office) preference": "Low",
+          "Financing dependency": "Typical",
+          "Customer satisfaction": "Typical",
+          "Purchase time-span": "High",
+          "Geographic concentration": "Mixed"
+        },
+        "insights": [
+          "Office purchases account for 8% of units vs 15% overall.",
+          "Purchases are spread over 19 months on average vs 14 overall.",
+          "36% of this segment applied for a loan vs 37% overall \u2014 no material difference.",
+          "31% acquired for investment vs 31% overall \u2014 no material difference.",
+          "Average satisfaction is 3.01/5 vs 3.03 overall."
+        ],
+        "customer_needs": [
+          "No segment-specific need is supported by the data; use individual signals."
+        ],
+        "potential_friction": [
+          "No segment-specific friction is supported by the data."
+        ],
+        "communication_strategy": [
+          "Milestone-based updates (new availability matching past purchases) rather than frequent reminders.",
+          "Largest acquisition channel is 'Website' (55%); use the channel each client prefers where consent exists."
+        ],
+        "property_strategy": [
+          "Match recommendations to the observed price point (segment average $362,424).",
+          "Typical unit size is about 1178 sq ft at $308 per sq ft.",
+          "Prioritise apartments; office units are less common in this segment's purchases."
+        ],
+        "financing_strategy": [
+          "Loan usage (36%) does not differ materially from the overall rate (37%): decide financing messaging per client from the client's own loan flag, not from the segment."
+        ],
+        "engagement_strategy": [
+          "Satisfaction is in line with overall; monitor low individual scores for service recovery.",
+          "40% of the segment rated satisfaction 1-2."
+        ],
+        "marketing_recommendation": [
+          "Mixed content: the investment/home split matches the overall population, so let each client's own stated purpose steer the message."
+        ],
+        "customer_value_guardrails": [
+          "Cap promotional contact frequency; send only items matching the client's observed pattern.",
+          "Describe recommendations as 'similar to units others in your group bought', never as assumptions about means or ability to pay.",
+          "Respect opt-outs and explain why a recommendation is shown."
+        ]
+      }
+    },
+    "1": {
+      "segment_id": 1,
+      "name": "Lower-Rate Value-Ticket Buyers",
+      "n": 489,
+      "share": 0.2445,
+      "means": {
+        "age": 54.98159509202454,
+        "satisfaction_score": 3.044989775051125,
+        "purchase_count": 3.609406952965235,
+        "total_spend_usd": 1024619.4451124744,
+        "average_purchase_price_usd": 283127.2932385821,
+        "average_area_sqft": 992.4034226312202,
+        "average_price_per_sqft_usd": 287.14724669080897,
+        "office_share": 0.12194955691888205,
+        "purchase_span_months": 13.705521472392638,
+        "purchase_intensity": 0.3079494420768296,
+        "distinct_towers_purchased": 3.6032719836400817,
+        "is_investment_purpose": 0.28629856850715746,
+        "is_loan_applied": 0.3783231083844581,
+        "is_company": 0.053169734151329244,
+        "is_international": 0.25766871165644173
+      },
+      "medians": {
+        "age": 57.0,
+        "satisfaction_score": 3.0,
+        "purchase_count": 4.0,
+        "total_spend_usd": 1026117.62,
+        "average_purchase_price_usd": 279014.7833333333,
+        "average_area_sqft": 979.0866666666667,
+        "average_price_per_sqft_usd": 287.3216267134631,
+        "office_share": 0.0,
+        "purchase_span_months": 14.0,
+        "purchase_intensity": 0.26666666666666666,
+        "distinct_towers_purchased": 4.0
+      },
+      "age_quartiles": [
+        41.0,
+        57.0,
+        70.0
+      ],
+      "age_band_share": {
+        "<35": 0.1881,
+        "35-49": 0.1963,
+        "50-64": 0.2822,
+        "65+": 0.3333
+      },
+      "satisfaction_distribution": {
+        "1": 0.2004,
+        "2": 0.1759,
+        "3": 0.1943,
+        "4": 0.2372,
+        "5": 0.1922
+      },
+      "client_type_share": {
+        "Individual": 0.9468,
+        "Company": 0.0532
+      },
+      "purpose_share": {
+        "Home": 0.7137,
+        "Investment": 0.2863
+      },
+      "referral_share": {
+        "Website": 0.5133,
+        "Agency": 0.4029,
+        "Client": 0.0838
+      },
+      "top_countries": {
+        "USA": 0.7423,
+        "UK": 0.047,
+        "Canada": 0.045
+      },
+      "top_regions": {
+        "California": 0.3108,
+        "Colorado": 0.0695,
+        "Nevada": 0.0654
+      },
+      "total_spend_sum": 501038908.65999997,
+      "office_buyer_share": 0.4233128834355828,
+      "mixed_category_share": 0.4233128834355828,
+      "same_tower_repeat_share": 0.006134969325153374,
+      "distinguishing_traits": [
+        {
+          "variable": "average_price_per_sqft_usd",
+          "label": "Avg price per sq ft (USD)",
+          "effect": -1.521,
+          "segment_value": 287.1472,
+          "rest_value": 307.481,
+          "p_adj": 1.0467082437297627e-133
+        },
+        {
+          "variable": "average_purchase_price_usd",
+          "label": "Avg purchase price (USD)",
+          "effect": -1.423,
+          "segment_value": 283127.2932,
+          "rest_value": 367789.9837,
+          "p_adj": 5.184016564046323e-130
+        },
+        {
+          "variable": "average_area_sqft",
+          "label": "Avg area (sq ft)",
+          "effect": -1.019,
+          "segment_value": 992.4034,
+          "rest_value": 1197.6665,
+          "p_adj": 1.34918588945571e-72
+        },
+        {
+          "variable": "total_spend_usd",
+          "label": "Total spend (USD)",
+          "effect": -0.972,
+          "segment_value": 1024619.4451,
+          "rest_value": 1336672.4369,
+          "p_adj": 3.853365791026468e-77
+        }
+      ],
+      "playbook": {
+        "profile_levels": {
+          "Investment orientation": "Typical",
+          "Property activity": "Typical",
+          "Purchase ticket size": "Low",
+          "Commercial (office) preference": "Typical",
+          "Financing dependency": "Typical",
+          "Customer satisfaction": "Typical",
+          "Purchase time-span": "Typical",
+          "Geographic concentration": "Mixed"
+        },
+        "insights": [
+          "Average purchase value is lower: $283,127 vs $347,090 overall (observed transactions only).",
+          "38% of this segment applied for a loan vs 37% overall \u2014 no material difference.",
+          "29% acquired for investment vs 31% overall \u2014 no material difference.",
+          "Average satisfaction is 3.04/5 vs 3.03 overall."
+        ],
+        "customer_needs": [
+          "Easy price comparison between similar units."
+        ],
+        "potential_friction": [
+          "Being shown listings far above the price range they have bought in."
+        ],
+        "communication_strategy": [
+          "Largest acquisition channel is 'Website' (51%); use the channel each client prefers where consent exists."
+        ],
+        "property_strategy": [
+          "Surface units near the segment's typical price point (average $283,127); avoid showing out-of-pattern listings.",
+          "Typical unit size is about 992 sq ft at $287 per sq ft.",
+          "Offer both apartments and a limited number of office units, matching past category mix."
+        ],
+        "financing_strategy": [
+          "Loan usage (38%) does not differ materially from the overall rate (37%): decide financing messaging per client from the client's own loan flag, not from the segment."
+        ],
+        "engagement_strategy": [
+          "Satisfaction is in line with overall; monitor low individual scores for service recovery.",
+          "38% of the segment rated satisfaction 1-2."
+        ],
+        "marketing_recommendation": [
+          "Mixed content: the investment/home split matches the overall population, so let each client's own stated purpose steer the message."
+        ],
+        "customer_value_guardrails": [
+          "Cap promotional contact frequency; send only items matching the client's observed pattern.",
+          "Describe recommendations as 'similar to units others in your group bought', never as assumptions about means or ability to pay.",
+          "Respect opt-outs and explain why a recommendation is shown."
+        ]
+      }
+    },
+    "2": {
+      "segment_id": 2,
+      "name": "Commercial-Leaning Premium-Rate Buyers",
+      "n": 452,
+      "share": 0.226,
+      "means": {
+        "age": 55.18362831858407,
+        "satisfaction_score": 2.9579646017699117,
+        "purchase_count": 3.3650442477876106,
+        "total_spend_usd": 1260306.437699115,
+        "average_purchase_price_usd": 376351.4970921829,
+        "average_area_sqft": 1215.5671216814158,
+        "average_price_per_sqft_usd": 309.967284337328,
+        "office_share": 0.38978613569321535,
+        "purchase_span_months": 11.969026548672566,
+        "purchase_intensity": 0.3579161338764938,
+        "distinct_towers_purchased": 3.3650442477876106,
+        "is_investment_purpose": 0.3252212389380531,
+        "is_loan_applied": 0.3495575221238938,
+        "is_company": 0.04424778761061947,
+        "is_international": 0.2323008849557522
+      },
+      "medians": {
+        "age": 55.0,
+        "satisfaction_score": 3.0,
+        "purchase_count": 3.0,
+        "total_spend_usd": 1230707.9500000002,
+        "average_purchase_price_usd": 372390.44625,
+        "average_area_sqft": 1204.6766666666667,
+        "average_price_per_sqft_usd": 309.52189464484246,
+        "office_share": 0.3333333333333333,
+        "purchase_span_months": 12.0,
+        "purchase_intensity": 0.2857142857142857,
+        "distinct_towers_purchased": 3.0
+      },
+      "age_quartiles": [
+        40.0,
+        55.0,
+        70.0
+      ],
+      "age_band_share": {
+        "<35": 0.146,
+        "35-49": 0.25,
+        "50-64": 0.2588,
+        "65+": 0.3451
+      },
+      "satisfaction_distribution": {
+        "1": 0.2058,
+        "2": 0.1969,
+        "3": 0.2058,
+        "4": 0.2168,
+        "5": 0.1748
+      },
+      "client_type_share": {
+        "Individual": 0.9558,
+        "Company": 0.0442
+      },
+      "purpose_share": {
+        "Home": 0.6748,
+        "Investment": 0.3252
+      },
+      "referral_share": {
+        "Website": 0.5531,
+        "Agency": 0.3473,
+        "Client": 0.0996
+      },
+      "top_countries": {
+        "USA": 0.7677,
+        "Canada": 0.0465,
+        "UK": 0.042
+      },
+      "top_regions": {
+        "California": 0.3053,
+        "Arizona": 0.0752,
+        "Nevada": 0.0531
+      },
+      "total_spend_sum": 569658509.8399999,
+      "office_buyer_share": 1.0,
+      "mixed_category_share": 0.995575221238938,
+      "same_tower_repeat_share": 0.0,
+      "distinguishing_traits": [
+        {
+          "variable": "office_share",
+          "label": "Office share",
+          "effect": 2.377,
+          "segment_value": 0.3898,
+          "rest_value": 0.0783,
+          "p_adj": 3.789491919850501e-218
+        },
+        {
+          "variable": "average_price_per_sqft_usd",
+          "label": "Avg price per sq ft (USD)",
+          "effect": 0.623,
+          "segment_value": 309.9673,
+          "rest_value": 300.3317,
+          "p_adj": 2.4531518928702668e-27
+        },
+        {
+          "variable": "average_purchase_price_usd",
+          "label": "Avg purchase price (USD)",
+          "effect": 0.557,
+          "segment_value": 376351.4971,
+          "rest_value": 338545.8883,
+          "p_adj": 4.842593661294917e-21
+        },
+        {
+          "variable": "purchase_span_months",
+          "label": "Purchase span (months)",
+          "effect": -0.543,
+          "segment_value": 11.969,
+          "rest_value": 14.781,
+          "p_adj": 4.0194891321448877e-22
+        }
+      ],
+      "playbook": {
+        "profile_levels": {
+          "Investment orientation": "Typical",
+          "Property activity": "Low",
+          "Purchase ticket size": "High",
+          "Commercial (office) preference": "High",
+          "Financing dependency": "Typical",
+          "Customer satisfaction": "Typical",
+          "Purchase time-span": "Low",
+          "Geographic concentration": "Mixed"
+        },
+        "insights": [
+          "Purchase activity is lower than other buyers: 3.4 purchases on average vs 3.7 overall.",
+          "Average purchase value is higher: $376,351 vs $347,090 overall (observed transactions only).",
+          "Office purchases account for 39% of units vs 15% overall.",
+          "Purchases are spread over 12 months on average vs 14 overall.",
+          "35% of this segment applied for a loan vs 37% overall \u2014 no material difference.",
+          "33% acquired for investment vs 31% overall \u2014 no material difference.",
+          "Average satisfaction is 2.96/5 vs 3.03 overall."
+        ],
+        "customer_needs": [
+          "Clear guidance for a smaller number of purchase decisions.",
+          "Detailed unit information (area, price per sq ft, comparable units) to support larger decisions."
+        ],
+        "potential_friction": [
+          "Thin or generic listings when each transaction is of higher value."
+        ],
+        "communication_strategy": [
+          "Timely availability alerts: this segment completes its purchases in a shorter window.",
+          "Largest acquisition channel is 'Website' (55%); use the channel each client prefers where consent exists."
+        ],
+        "property_strategy": [
+          "Surface units in the upper part of the observed price range (segment average $376,351).",
+          "Typical unit size is about 1216 sq ft at $310 per sq ft.",
+          "Include office units in recommendations; office purchases are more common here than overall."
+        ],
+        "financing_strategy": [
+          "Loan usage (35%) does not differ materially from the overall rate (37%): decide financing messaging per client from the client's own loan flag, not from the segment."
+        ],
+        "engagement_strategy": [
+          "Keep communication focused on the specific listings already viewed.",
+          "Satisfaction is in line with overall; monitor low individual scores for service recovery.",
+          "40% of the segment rated satisfaction 1-2."
+        ],
+        "marketing_recommendation": [
+          "Commercial-property campaigns with floor-area and tower information.",
+          "Mixed content: the investment/home split matches the overall population, so let each client's own stated purpose steer the message."
+        ],
+        "customer_value_guardrails": [
+          "Cap promotional contact frequency; send only items matching the client's observed pattern.",
+          "Describe recommendations as 'similar to units others in your group bought', never as assumptions about means or ability to pay.",
+          "Respect opt-outs and explain why a recommendation is shown."
+        ]
+      }
+    },
+    "3": {
+      "segment_id": 3,
+      "name": "Fast-Cycle Residential-Focused Buyers",
+      "n": 411,
+      "share": 0.2055,
+      "means": {
+        "age": 53.78832116788321,
+        "satisfaction_score": 3.002433090024331,
+        "purchase_count": 3.2992700729927007,
+        "total_spend_usd": 1242772.2194890513,
+        "average_purchase_price_usd": 376940.1330129765,
+        "average_area_sqft": 1236.7141828872668,
+        "average_price_per_sqft_usd": 305.3729661779072,
+        "office_share": 0.0012165450121654502,
+        "purchase_span_months": 9.518248175182482,
+        "purchase_intensity": 0.43200589623947283,
+        "distinct_towers_purchased": 3.2968369829683697,
+        "is_investment_purpose": 0.31630170316301703,
+        "is_loan_applied": 0.3819951338199513,
+        "is_company": 0.06326034063260341,
+        "is_international": 0.25547445255474455
+      },
+      "medians": {
+        "age": 53.0,
+        "satisfaction_score": 3.0,
+        "purchase_count": 3.0,
+        "total_spend_usd": 1227353.63,
+        "average_purchase_price_usd": 369382.5366666666,
+        "average_area_sqft": 1222.37,
+        "average_price_per_sqft_usd": 305.26025301274785,
+        "office_share": 0.0,
+        "purchase_span_months": 10.0,
+        "purchase_intensity": 0.36363636363636365,
+        "distinct_towers_purchased": 3.0
+      },
+      "age_quartiles": [
+        40.0,
+        53.0,
+        67.5
+      ],
+      "age_band_share": {
+        "<35": 0.1825,
+        "35-49": 0.2457,
+        "50-64": 0.2774,
+        "65+": 0.2944
+      },
+      "satisfaction_distribution": {
+        "1": 0.2044,
+        "2": 0.1898,
+        "3": 0.2141,
+        "4": 0.1825,
+        "5": 0.2092
+      },
+      "client_type_share": {
+        "Individual": 0.9367,
+        "Company": 0.0633
+      },
+      "purpose_share": {
+        "Home": 0.6837,
+        "Investment": 0.3163
+      },
+      "referral_share": {
+        "Website": 0.5693,
+        "Agency": 0.326,
+        "Client": 0.1046
+      },
+      "top_countries": {
+        "USA": 0.7445,
+        "UK": 0.056,
+        "Canada": 0.056
+      },
+      "top_regions": {
+        "California": 0.2676,
+        "Nevada": 0.0827,
+        "Colorado": 0.0584
+      },
+      "total_spend_sum": 510779382.21000004,
+      "office_buyer_share": 0.004866180048661801,
+      "mixed_category_share": 0.004866180048661801,
+      "same_tower_repeat_share": 0.0024330900243309003,
+      "distinguishing_traits": [
+        {
+          "variable": "purchase_span_months",
+          "label": "Purchase span (months)",
+          "effect": -1.225,
+          "segment_value": 9.5182,
+          "rest_value": 15.3424,
+          "p_adj": 5.126392831765284e-88
+        },
+        {
+          "variable": "office_share",
+          "label": "Office share",
+          "effect": -1.099,
+          "segment_value": 0.0012,
+          "rest_value": 0.1869,
+          "p_adj": 5.069121985211091e-81
+        },
+        {
+          "variable": "purchase_intensity",
+          "label": "Purchases per active month",
+          "effect": 0.67,
+          "segment_value": 0.432,
+          "rest_value": 0.2878,
+          "p_adj": 2.4003781955767255e-48
+        },
+        {
+          "variable": "distinct_towers_purchased",
+          "label": "Distinct towers",
+          "effect": -0.571,
+          "segment_value": 3.2968,
+          "rest_value": 3.6872,
+          "p_adj": 2.959495405697377e-26
+        },
+        {
+          "variable": "average_purchase_price_usd",
+          "label": "Avg purchase price (USD)",
+          "effect": 0.552,
+          "segment_value": 376940.133,
+          "rest_value": 339369.1108,
+          "p_adj": 2.427193164745243e-22
+        },
+        {
+          "variable": "purchase_count",
+          "label": "Purchase count",
+          "effect": -0.542,
+          "segment_value": 3.2993,
+          "rest_value": 3.7439,
+          "p_adj": 3.800905318486179e-27
+        },
+        {
+          "variable": "average_area_sqft",
+          "label": "Avg area (sq ft)",
+          "effect": 0.522,
+          "segment_value": 1236.7142,
+          "rest_value": 1124.3989,
+          "p_adj": 1.0639256417142714e-18
+        }
+      ],
+      "playbook": {
+        "profile_levels": {
+          "Investment orientation": "Typical",
+          "Property activity": "Low",
+          "Purchase ticket size": "High",
+          "Commercial (office) preference": "Low",
+          "Financing dependency": "Typical",
+          "Customer satisfaction": "Typical",
+          "Purchase time-span": "Low",
+          "Geographic concentration": "Mixed"
+        },
+        "insights": [
+          "Purchase activity is lower than other buyers: 3.3 purchases on average vs 3.7 overall.",
+          "Average purchase value is higher: $376,940 vs $347,090 overall (observed transactions only).",
+          "Office purchases account for 0% of units vs 15% overall.",
+          "Purchases are spread over 10 months on average vs 14 overall.",
+          "38% of this segment applied for a loan vs 37% overall \u2014 no material difference.",
+          "32% acquired for investment vs 31% overall \u2014 no material difference.",
+          "Average satisfaction is 3.00/5 vs 3.03 overall."
+        ],
+        "customer_needs": [
+          "Clear guidance for a smaller number of purchase decisions.",
+          "Detailed unit information (area, price per sq ft, comparable units) to support larger decisions."
+        ],
+        "potential_friction": [
+          "Thin or generic listings when each transaction is of higher value."
+        ],
+        "communication_strategy": [
+          "Timely availability alerts: this segment completes its purchases in a shorter window.",
+          "Largest acquisition channel is 'Website' (57%); use the channel each client prefers where consent exists."
+        ],
+        "property_strategy": [
+          "Surface units in the upper part of the observed price range (segment average $376,940).",
+          "Typical unit size is about 1237 sq ft at $305 per sq ft.",
+          "Prioritise apartments; office units are less common in this segment's purchases."
+        ],
+        "financing_strategy": [
+          "Loan usage (38%) does not differ materially from the overall rate (37%): decide financing messaging per client from the client's own loan flag, not from the segment."
+        ],
+        "engagement_strategy": [
+          "Keep communication focused on the specific listings already viewed.",
+          "Satisfaction is in line with overall; monitor low individual scores for service recovery.",
+          "39% of the segment rated satisfaction 1-2."
+        ],
+        "marketing_recommendation": [
+          "Mixed content: the investment/home split matches the overall population, so let each client's own stated purpose steer the message."
+        ],
+        "customer_value_guardrails": [
+          "Cap promotional contact frequency; send only items matching the client's observed pattern.",
+          "Describe recommendations as 'similar to units others in your group bought', never as assumptions about means or ability to pay.",
+          "Respect opt-outs and explain why a recommendation is shown."
+        ]
+      }
+    },
+    "4": {
+      "segment_id": 4,
+      "name": "High-Volume Long-Horizon Buyers",
+      "n": 114,
+      "share": 0.057,
+      "means": {
+        "age": 63.03508771929825,
+        "satisfaction_score": 3.4473684210526314,
+        "purchase_count": 6.026315789473684,
+        "total_spend_usd": 1962284.2772807018,
+        "average_purchase_price_usd": 325991.795122161,
+        "average_area_sqft": 1079.6433624732967,
+        "average_price_per_sqft_usd": 302.0787221353821,
+        "office_share": 0.13926482873851292,
+        "purchase_span_months": 18.219298245614034,
+        "purchase_intensity": 0.3408646650546282,
+        "distinct_towers_purchased": 5.298245614035087,
+        "is_investment_purpose": 0.2982456140350877,
+        "is_loan_applied": 0.37719298245614036,
+        "is_company": 0.043859649122807015,
+        "is_international": 0.08771929824561403
+      },
+      "medians": {
+        "age": 63.0,
+        "satisfaction_score": 4.0,
+        "purchase_count": 5.0,
+        "total_spend_usd": 1831222.31,
+        "average_purchase_price_usd": 324836.641,
+        "average_area_sqft": 1072.41325,
+        "average_price_per_sqft_usd": 300.9410250029022,
+        "office_share": 0.125,
+        "purchase_span_months": 18.0,
+        "purchase_intensity": 0.3125,
+        "distinct_towers_purchased": 5.0
+      },
+      "age_quartiles": [
+        54.0,
+        63.0,
+        73.0
+      ],
+      "age_band_share": {
+        "<35": 0.0175,
+        "35-49": 0.1842,
+        "50-64": 0.3421,
+        "65+": 0.4561
+      },
+      "satisfaction_distribution": {
+        "1": 0.114,
+        "2": 0.1754,
+        "3": 0.1754,
+        "4": 0.2193,
+        "5": 0.3158
+      },
+      "client_type_share": {
+        "Individual": 0.9561,
+        "Company": 0.0439
+      },
+      "purpose_share": {
+        "Home": 0.7018,
+        "Investment": 0.2982
+      },
+      "referral_share": {
+        "Website": 0.6404,
+        "Agency": 0.2807,
+        "Client": 0.0789
+      },
+      "top_countries": {
+        "USA": 0.9123,
+        "UK": 0.0263,
+        "Belgium": 0.0175
+      },
+      "top_regions": {
+        "California": 0.5702,
+        "Nevada": 0.0965,
+        "Oregon": 0.0702
+      },
+      "total_spend_sum": 223700407.61,
+      "office_buyer_share": 0.543859649122807,
+      "mixed_category_share": 0.543859649122807,
+      "same_tower_repeat_share": 0.5,
+      "distinguishing_traits": [
+        {
+          "variable": "purchase_count",
+          "label": "Purchase count",
+          "effect": 4.17,
+          "segment_value": 6.0263,
+          "rest_value": 3.509,
+          "p_adj": 2.7150288255789157e-88
+        },
+        {
+          "variable": "distinct_towers_purchased",
+          "label": "Distinct towers",
+          "effect": 3.176,
+          "segment_value": 5.2982,
+          "rest_value": 3.5048,
+          "p_adj": 1.0477318859728073e-66
+        },
+        {
+          "variable": "total_spend_usd",
+          "label": "Total spend (USD)",
+          "effect": 2.464,
+          "segment_value": 1962284.2773,
+          "rest_value": 1217948.3315,
+          "p_adj": 6.513024635871321e-48
+        },
+        {
+          "variable": "purchase_span_months",
+          "label": "Purchase span (months)",
+          "effect": 0.829,
+          "segment_value": 18.2193,
+          "rest_value": 13.8993,
+          "p_adj": 7.439074230189352e-16
+        },
+        {
+          "variable": "is_international",
+          "label": "International share",
+          "effect": -0.422,
+          "segment_value": 0.0877,
+          "rest_value": 0.2397,
+          "p_adj": 0.013923262141865988
+        }
+      ],
+      "playbook": {
+        "profile_levels": {
+          "Investment orientation": "Typical",
+          "Property activity": "High",
+          "Purchase ticket size": "Low",
+          "Commercial (office) preference": "Typical",
+          "Financing dependency": "Typical",
+          "Customer satisfaction": "High",
+          "Purchase time-span": "High",
+          "Geographic concentration": "Mostly domestic (USA)"
+        },
+        "insights": [
+          "Purchase activity is higher than other buyers: 6.0 purchases on average vs 3.7 overall.",
+          "Average purchase value is lower: $325,992 vs $347,090 overall (observed transactions only).",
+          "Purchases are spread over 18 months on average vs 14 overall.",
+          "38% of this segment applied for a loan vs 37% overall \u2014 no material difference.",
+          "30% acquired for investment vs 31% overall \u2014 no material difference.",
+          "Average satisfaction is 3.45/5 vs 3.03 overall.",
+          "50% bought more than one unit in the same tower."
+        ],
+        "customer_needs": [
+          "A consolidated view of several holdings and a smoother repeat-purchase process.",
+          "Easy price comparison between similar units."
+        ],
+        "potential_friction": [
+          "Repeating the same paperwork and onboarding for each additional purchase.",
+          "Being shown listings far above the price range they have bought in."
+        ],
+        "communication_strategy": [
+          "Milestone-based updates (new availability matching past purchases) rather than frequent reminders.",
+          "Largest acquisition channel is 'Website' (64%); use the channel each client prefers where consent exists."
+        ],
+        "property_strategy": [
+          "Surface units near the segment's typical price point (average $325,992); avoid showing out-of-pattern listings.",
+          "Typical unit size is about 1080 sq ft at $302 per sq ft.",
+          "Offer both apartments and a limited number of office units, matching past category mix."
+        ],
+        "financing_strategy": [
+          "Loan usage (38%) does not differ materially from the overall rate (37%): decide financing messaging per client from the client's own loan flag, not from the segment."
+        ],
+        "engagement_strategy": [
+          "Offer a single point of contact and pre-filled details for follow-on purchases.",
+          "Invite feedback and optional referrals; avoid over-contacting a satisfied group.",
+          "29% of the segment rated satisfaction 1-2."
+        ],
+        "marketing_recommendation": [
+          "Mixed content: the investment/home split matches the overall population, so let each client's own stated purpose steer the message."
+        ],
+        "customer_value_guardrails": [
+          "Cap promotional contact frequency; send only items matching the client's observed pattern.",
+          "Describe recommendations as 'similar to units others in your group bought', never as assumptions about means or ability to pay.",
+          "Respect opt-outs and explain why a recommendation is shown."
+        ]
+      }
+    }
+  }
+}

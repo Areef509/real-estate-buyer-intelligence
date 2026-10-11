@@ -1,0 +1,76 @@
+attribute,group,segment,segment_name,share_in_group,representation_ratio
+gender,F,0,Long-Horizon Buyers,0.2753,1.031
+gender,F,1,Lower-Rate Value-Ticket Buyers,0.251,1.027
+gender,F,2,Commercial-Leaning Premium-Rate Buyers,0.2277,1.008
+gender,F,3,Fast-Cycle Residential-Focused Buyers,0.1953,0.951
+gender,F,4,High-Volume Long-Horizon Buyers,0.0506,0.888
+gender,M,0,Long-Horizon Buyers,0.2589,0.97
+gender,M,1,Lower-Rate Value-Ticket Buyers,0.2381,0.974
+gender,M,2,Commercial-Leaning Premium-Rate Buyers,0.2243,0.993
+gender,M,3,Fast-Cycle Residential-Focused Buyers,0.2154,1.048
+gender,M,4,High-Volume Long-Horizon Buyers,0.0632,1.109
+geo_group,International,0,Long-Horizon Buyers,0.2511,0.94
+geo_group,International,1,Lower-Rate Value-Ticket Buyers,0.2727,1.115
+geo_group,International,2,Commercial-Leaning Premium-Rate Buyers,0.2273,1.006
+geo_group,International,3,Fast-Cycle Residential-Focused Buyers,0.2273,1.106
+geo_group,International,4,High-Volume Long-Horizon Buyers,0.0216,0.38
+geo_group,USA,0,Long-Horizon Buyers,0.2718,1.018
+geo_group,USA,1,Lower-Rate Value-Ticket Buyers,0.236,0.965
+geo_group,USA,2,Commercial-Leaning Premium-Rate Buyers,0.2256,0.998
+geo_group,USA,3,Fast-Cycle Residential-Focused Buyers,0.199,0.968
+geo_group,USA,4,High-Volume Long-Horizon Buyers,0.0676,1.186
+country_group,Canada,0,Long-Horizon Buyers,0.2118,0.793
+country_group,Canada,1,Lower-Rate Value-Ticket Buyers,0.2588,1.059
+country_group,Canada,2,Commercial-Leaning Premium-Rate Buyers,0.2471,1.093
+country_group,Canada,3,Fast-Cycle Residential-Focused Buyers,0.2706,1.317
+country_group,Canada,4,High-Volume Long-Horizon Buyers,0.0118,0.206
+country_group,Germany,0,Long-Horizon Buyers,0.2143,0.803
+country_group,Germany,1,Lower-Rate Value-Ticket Buyers,0.25,1.022
+country_group,Germany,2,Commercial-Leaning Premium-Rate Buyers,0.25,1.106
+country_group,Germany,3,Fast-Cycle Residential-Focused Buyers,0.2679,1.303
+country_group,Germany,4,High-Volume Long-Horizon Buyers,0.0179,0.313
+country_group,Other,0,Long-Horizon Buyers,0.2611,0.978
+country_group,Other,1,Lower-Rate Value-Ticket Buyers,0.2965,1.213
+country_group,Other,2,Commercial-Leaning Premium-Rate Buyers,0.2257,0.999
+country_group,Other,3,Fast-Cycle Residential-Focused Buyers,0.1947,0.947
+country_group,Other,4,High-Volume Long-Horizon Buyers,0.0221,0.388
+country_group,UK,0,Long-Horizon Buyers,0.2842,1.064
+country_group,UK,1,Lower-Rate Value-Ticket Buyers,0.2421,0.99
+country_group,UK,2,Commercial-Leaning Premium-Rate Buyers,0.2,0.885
+country_group,UK,3,Fast-Cycle Residential-Focused Buyers,0.2421,1.178
+country_group,UK,4,High-Volume Long-Horizon Buyers,0.0316,0.554
+country_group,USA,0,Long-Horizon Buyers,0.2718,1.018
+country_group,USA,1,Lower-Rate Value-Ticket Buyers,0.236,0.965
+country_group,USA,2,Commercial-Leaning Premium-Rate Buyers,0.2256,0.998
+country_group,USA,3,Fast-Cycle Residential-Focused Buyers,0.199,0.968
+country_group,USA,4,High-Volume Long-Horizon Buyers,0.0676,1.186
+age_band,<35,0,Long-Horizon Buyers,0.3006,1.126
+age_band,<35,1,Lower-Rate Value-Ticket Buyers,0.2738,1.12
+age_band,<35,2,Commercial-Leaning Premium-Rate Buyers,0.1964,0.869
+age_band,<35,3,Fast-Cycle Residential-Focused Buyers,0.2232,1.086
+age_band,<35,4,High-Volume Long-Horizon Buyers,0.006,0.104
+age_band,35-49,0,Long-Horizon Buyers,0.2612,0.978
+age_band,35-49,1,Lower-Rate Value-Ticket Buyers,0.2143,0.876
+age_band,35-49,2,Commercial-Leaning Premium-Rate Buyers,0.2522,1.116
+age_band,35-49,3,Fast-Cycle Residential-Focused Buyers,0.2254,1.097
+age_band,35-49,4,High-Volume Long-Horizon Buyers,0.0469,0.822
+age_band,50-64,0,Long-Horizon Buyers,0.2649,0.992
+age_band,50-64,1,Lower-Rate Value-Ticket Buyers,0.2486,1.017
+age_band,50-64,2,Commercial-Leaning Premium-Rate Buyers,0.2108,0.933
+age_band,50-64,3,Fast-Cycle Residential-Focused Buyers,0.2054,1.0
+age_band,50-64,4,High-Volume Long-Horizon Buyers,0.0703,1.233
+age_band,65+,0,Long-Horizon Buyers,0.2557,0.958
+age_band,65+,1,Lower-Rate Value-Ticket Buyers,0.2466,1.009
+age_band,65+,2,Commercial-Leaning Premium-Rate Buyers,0.236,1.044
+age_band,65+,3,Fast-Cycle Residential-Focused Buyers,0.1831,0.891
+age_band,65+,4,High-Volume Long-Horizon Buyers,0.0787,1.38
+client_type,Company,0,Long-Horizon Buyers,0.2524,0.945
+client_type,Company,1,Lower-Rate Value-Ticket Buyers,0.2524,1.032
+client_type,Company,2,Commercial-Leaning Premium-Rate Buyers,0.1942,0.859
+client_type,Company,3,Fast-Cycle Residential-Focused Buyers,0.2524,1.228
+client_type,Company,4,High-Volume Long-Horizon Buyers,0.0485,0.852
+client_type,Individual,0,Long-Horizon Buyers,0.2678,1.003
+client_type,Individual,1,Lower-Rate Value-Ticket Buyers,0.2441,0.998
+client_type,Individual,2,Commercial-Leaning Premium-Rate Buyers,0.2277,1.008
+client_type,Individual,3,Fast-Cycle Residential-Focused Buyers,0.203,0.988
+client_type,Individual,4,High-Volume Long-Horizon Buyers,0.0575,1.008

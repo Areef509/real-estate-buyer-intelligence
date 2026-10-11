@@ -1,0 +1,61 @@
+# Central configuration — every tunable lives here so runs are reproducible.
+random_state: 42
+paths:
+  data_dir: data
+  models_dir: models
+  reports_dir: reports
+  figures_dir: reports/figures
+files:
+  clients: clients_cleaned.csv
+  properties: properties_cleaned.csv
+  buyers: buyer_features_model_ready.csv
+reference_date: "2025-12-31"
+features:
+  # Candidate pool evaluated in feature selection (see src/feature_engineering.py)
+  numeric_candidates:
+    - age
+    - satisfaction_score
+    - purchase_count
+    - total_spend_usd
+    - average_purchase_price_usd
+    - median_purchase_price_usd
+    - average_area_sqft
+    - total_area_sqft
+    - average_price_per_sqft_usd
+    - office_share
+    - apartment_share
+    - distinct_towers_purchased
+    - tower_diversification
+    - purchase_span_months
+    - purchase_intensity
+  binary_candidates:
+    - is_investment_purpose
+    - is_loan_applied
+    - is_company
+    - is_international
+  categorical_candidates:
+    - referral_channel
+  # Excluded from clustering, retained for interpretation / fairness audit only
+  audit_only:
+    - gender
+    - country
+    - region
+  corr_threshold: 0.85
+  min_variance: 0.01
+  log_transform: [average_purchase_price_usd, total_spend_usd]
+clustering:
+  k_range: [2, 3, 4, 5, 6, 7, 8]
+  linkages: [ward, complete, average]
+  n_init: 20
+stability:
+  n_seeds: 20
+  n_bootstrap: 50
+  bootstrap_fraction: 0.8
+
+selection:
+  # Only algorithms whose fitted model can be deployed as-is for new-buyer assignment are eligible to be
+  # SELECTED. Others (GMM, hierarchical) are still evaluated and reported as benchmarks.
+  deployable_algorithms: [kmeans]
+  k_range: [3, 6]
+  min_cluster_share: 0.05        # smallest allowed segment as a share of buyers (0.10 is a stricter business rule)
+  weights: {bootstrap: 0.4, seed: 0.2, gap: 0.2, db: 0.1, ch: 0.1}

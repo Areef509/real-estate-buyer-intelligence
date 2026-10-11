@@ -1,0 +1,22 @@
+feature,decision,reason
+age,excluded from final,independent of behaviour (|r|<0.1 with every behaviour feature); profiled instead
+satisfaction_score,excluded from final,independent of behaviour; adding it did not raise stability or null-gap (see model_metrics); profiled instead
+purchase_count,KEPT,core activity measure; winsorised at 1st/99th pct (max 13 purchases)
+total_spend_usd,dropped,"= purchase_count x avg price; r=0.98 with total_area_sqft, would double-count"
+average_purchase_price_usd,KEPT,core ticket-size measure; log1p + scaling; kept over median price (r=0.91) and avg area (r=0.96)
+median_purchase_price_usd,dropped,r=0.91 with average_purchase_price_usd
+average_area_sqft,dropped,r=0.96 with average_purchase_price_usd (size and price carry the same information here)
+total_area_sqft,dropped,r=0.98 with total_spend_usd; derived from count x area
+average_price_per_sqft_usd,KEPT,premium-rate signal not redundant with price or area (|r|<=0.27)
+office_share,KEPT,"commercial preference; kept over apartment_share (r=-0.998, exact mirror)"
+apartment_share,dropped,mirror image of office_share (r=-0.998)
+distinct_towers_purchased,dropped,r=0.93 with purchase_count
+tower_diversification,dropped from clustering,about 97% of clients = 1.0 (near-constant); including it isolates a 65-buyer micro-cluster instead of describing general behaviour. Reported in profiles instead
+purchase_span_months,KEPT,time between first and last purchase; winsorised; not redundant with count (r=0.27)
+purchase_intensity,dropped,r=-0.71 with purchase_span_months (count/span); span is easier to explain
+is_investment_purpose,excluded from final,independent of behaviour; kept for profiling and individual-level personalisation
+is_loan_applied,excluded from final,independent of behaviour; kept for profiling and individual-level personalisation
+is_company,excluded from final,only 5.2% of clients; near-constant
+is_international,excluded from final,tested in 'behaviour+customer+geo/channel'; audit variable
+referral_channel,excluded from final,"tested one-hot in geo/channel set; acquisition variable, profiled"
+gender / country / region,excluded (audit only),sensitive/high-cardinality (57 regions); used only in the fairness audit

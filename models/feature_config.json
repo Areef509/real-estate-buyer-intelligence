@@ -1,0 +1,37 @@
+{
+  "clustering_features": [
+    "purchase_count",
+    "average_purchase_price_usd",
+    "average_price_per_sqft_usd",
+    "office_share",
+    "purchase_span_months"
+  ],
+  "numeric": [
+    "purchase_count",
+    "average_purchase_price_usd",
+    "average_price_per_sqft_usd",
+    "office_share",
+    "purchase_span_months"
+  ],
+  "binary": [],
+  "categorical": [],
+  "winsorised": [
+    "purchase_count",
+    "purchase_span_months"
+  ],
+  "log_transformed": [
+    "average_purchase_price_usd",
+    "total_spend_usd"
+  ],
+  "feature_set": "behaviour",
+  "algorithm": "kmeans",
+  "k": 5,
+  "random_state": 42,
+  "min_train_purchase_count": 3,
+  "metrics": {
+    "silhouette": 0.17252986558712302,
+    "calinski_harabasz": 389.4977063591571,
+    "davies_bouldin": 1.4343949440855193
+  },
+  "label_fingerprint": "f14ca154c991bc8b"
+}

@@ -1,0 +1,12 @@
+# Versions validated in this upgrade (Python 3.12.3): full pipeline run, model artifacts, and the
+# non-UI test suite were executed with exactly these.
+numpy==2.4.4
+pandas==3.0.2
+scikit-learn==1.8.0
+scipy==1.17.1
+joblib==1.5.3
+PyYAML==6.0.3
+matplotlib==3.10.8
+tabulate==0.10.0
+# NOT validated in the build environment (no network/not installed there): streamlit, plotly, pytest.
+# Pin them to what `pip freeze` shows after you run the app and tests once.

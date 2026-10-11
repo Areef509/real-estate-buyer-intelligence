@@ -1,0 +1,25 @@
+constraints,weights,winner,winner_algorithm,winner_k,winner_feature_set,winner_score,runner_up,margin
+"K 3-6, min segment >= 5%",baseline (40/20/20/10/10),kmeans K=5 [behaviour],kmeans,5,behaviour,0.7906597907850161,kmeans K=4 [behaviour],0.08446960980438711
+"K 3-6, min segment >= 5%",equal weights,kmeans K=5 [behaviour],kmeans,5,behaviour,0.7812031547175463,kmeans K=4 [behaviour],0.10482904869227283
+"K 3-6, min segment >= 5%",stability-heavy,kmeans K=5 [behaviour],kmeans,5,behaviour,0.7852552245065655,kmeans K=4 [behaviour],0.043326121497563985
+"K 3-6, min segment >= 5%",separation-heavy,kmeans K=5 [behaviour],kmeans,5,behaviour,0.7920181683199794,kmeans K=6 [behaviour],0.0983559901752622
+"K 3-6, min segment >= 5%",bootstrap-only,kmeans K=4 [behaviour],kmeans,4,behaviour,0.8634907922852352,kmeans K=5 [behaviour],0.045837113969368404
+"K 3-6, min segment >= 5%",internal-indices-only,kmeans K=5 [behaviour],kmeans,5,behaviour,0.788766018880058,kmeans K=4 [behaviour],0.16744263358054035
+"K 3-6, min segment >= 10%",baseline (40/20/20/10/10),kmeans K=4 [behaviour],kmeans,4,behaviour,0.6918496550602856,kmeans K=3 [behaviour],0.06176066845640604
+"K 3-6, min segment >= 10%",equal weights,kmeans K=4 [behaviour],kmeans,4,behaviour,0.6191514966027172,kmeans K=3 [behaviour],0.005270392513718969
+"K 3-6, min segment >= 10%",stability-heavy,kmeans K=4 [behaviour],kmeans,4,behaviour,0.73475884004883,kmeans K=4 [behaviour+customer+geo/channel],0.13200657798172033
+"K 3-6, min segment >= 10%",separation-heavy,kmeans K=3 [behaviour],kmeans,3,behaviour,0.7069405520148544,kmeans K=4 [behaviour],0.12236495874362263
+"K 3-6, min segment >= 10%",bootstrap-only,kmeans K=4 [behaviour],kmeans,4,behaviour,0.8634907922852352,kmeans K=4 [behaviour+customer+geo/channel],0.07726343764540677
+"K 3-6, min segment >= 10%",internal-indices-only,kmeans K=3 [behaviour],kmeans,3,behaviour,0.6699999999663544,kmeans K=3 [behaviour+customer+geo/channel],0.11289566661094963
+"K 2-8, min segment >= 5%",baseline (40/20/20/10/10),kmeans K=5 [behaviour],kmeans,5,behaviour,0.794706638873378,kmeans K=4 [behaviour],0.029858491768176232
+"K 2-8, min segment >= 5%",equal weights,kmeans K=5 [behaviour],kmeans,5,behaviour,0.7693248546476608,kmeans K=4 [behaviour],0.03928291776152859
+"K 2-8, min segment >= 5%",stability-heavy,kmeans K=5 [behaviour],kmeans,5,behaviour,0.7872786485507465,kmeans K=4 [behaviour],0.01602056247945849
+"K 2-8, min segment >= 5%",separation-heavy,kmeans K=5 [behaviour],kmeans,5,behaviour,0.8001118644967032,kmeans K=4 [behaviour],0.06953928713563917
+"K 2-8, min segment >= 5%",bootstrap-only,kmeans K=4 [behaviour],kmeans,4,behaviour,0.8634907922852352,kmeans K=2 [behaviour+customer+geo/channel],0.0005370042854406787
+"K 2-8, min segment >= 5%",internal-indices-only,kmeans K=5 [behaviour],kmeans,5,behaviour,0.7701654235770776,kmeans K=4 [behaviour],0.05710771228772882
+"K 2-8, min segment >= 10%",baseline (40/20/20/10/10),kmeans K=4 [behaviour],kmeans,4,behaviour,0.744849173758884,kmeans K=2 [behaviour+customer+geo/channel],0.07636590001507038
+"K 2-8, min segment >= 10%",equal weights,kmeans K=4 [behaviour],kmeans,4,behaviour,0.672151015301634,kmeans K=4 [behaviour+customer+geo/channel],0.061115153687420265
+"K 2-8, min segment >= 10%",stability-heavy,kmeans K=4 [behaviour],kmeans,4,behaviour,0.7612585993981291,kmeans K=2 [behaviour+customer+geo/channel],0.057668107048524875
+"K 2-8, min segment >= 10%",separation-heavy,kmeans K=4 [behaviour],kmeans,4,behaviour,0.6905746306684286,kmeans K=3 [behaviour],0.008815021093301234
+"K 2-8, min segment >= 10%",bootstrap-only,kmeans K=4 [behaviour],kmeans,4,behaviour,0.8634907922852352,kmeans K=2 [behaviour+customer+geo/channel],0.0005370042854406787
+"K 2-8, min segment >= 10%",internal-indices-only,kmeans K=3 [behaviour+customer+geo/channel],kmeans,3,behaviour+customer+geo/channel,0.6502722883127905,kmeans K=3 [behaviour],0.021820843392081346
